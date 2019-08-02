@@ -4,5 +4,7 @@ def run_guessing_game
   mind = rand(1..6)
   puts "Read my mind! What number am I thinking of?"
   guess = gets.chomp
-  
+  if guess == mind
+    puts "You guessed the correct number!"
+    
 end
