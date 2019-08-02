@@ -6,7 +6,9 @@ def run_guessing_game
   guess = gets.chomp
   if guess == mind.to_s
     puts "You guessed the correct number!"
-    
-    if guess == "exit"
-      puts "Goodbye!"
+  end
+  if guess == "exit"
+    puts "Goodbye!"
+  end
+else
 end
